@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed";
+    font-weight: 400;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+.daniel {
+    width: 600px;
+    height: 320px;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translate(65px);
+    filter: drop-shadow(0 0 10px hsl(197, 5%, 70%));
+}
+.photos {
+    width: 100px;
+    display: flex;
+}
+.photo img {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.Jeanette {
+    background-color: hsl(210, 46%, 95%);
+    width: 280px;
+    height: 320px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    transform: translate(55px);
+    filter: drop-shadow(0 0 10px hsl(197, 5%, 70%));
+}
+
+.Jonathan {
+    width: 280px;
+    height: 320px; 
+    background-color: hsl(217, 19%, 35%);
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    filter: drop-shadow(0 0 10px hsl(197, 5%, 70%));
+}
+.Kira {
+    width: 280px;
+    height: 700px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translate(-60px);
+    filter: drop-shadow(0 0 10px hsl(197, 5%, 70%));
+}
+
+.Patrick {
+    width: 600px;
+    height: 320px;
+    background-color: hsl(219, 29%, 14%);
+    padding-left: 30px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translate(15px);
+    filter: drop-shadow(0 0 10px hsl(197, 5%, 70%));
+}
+
+
+.line1 {
+    display: flex;
+    justify-content: space-around;
+}
+.line2 {
+    width: 70%;
+    display: flex;
+    position: relative;
+    bottom: 350px;
+    left: 30px;
+    justify-content: space-around;
+}
+.container {
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
